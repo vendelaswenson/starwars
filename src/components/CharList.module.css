@@ -1,13 +1,10 @@
 li {
     border: 5px solid rgb(200, 203, 245);
-    margin-left: -2%;
-    margin-right: 4%;
-    margin-bottom: 15px;
     border-radius: 7px;
   }
 
   a {
-    color:  rgb(212, 205, 3);
+    color:  rgb(244, 236, 7);
   }
 
  h2 {
@@ -27,7 +24,7 @@ h3 {
 
 h3:hover {
   cursor: pointer;
-  color: black;
+  color: rgb(249, 244, 140);
 }
 
 .post__title__container{
@@ -36,5 +33,5 @@ h3:hover {
 }
 
 body {
-  background: rgb(111, 109, 109);
+  background-image: url("../images/night.png");
 }

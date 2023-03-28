@@ -21,7 +21,7 @@ const Characters = () => {
       </div>
       {posts.results?.map((post, i) => (
         <div key={i}>
-          <Link id={i} to={`/characters/${i}`} state={post}>
+          <Link id={i} to={`/characters/${i + 1}`} state={post}>
             <h3>{post.name}</h3>
           </Link>
         </div>

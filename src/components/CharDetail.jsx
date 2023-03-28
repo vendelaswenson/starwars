@@ -13,8 +13,6 @@ const Card = () => {
       .then((response) => setPost(response.data));
   });
 
-  console.log(post);
-
   return (
     <>
       <div className={styles.heading__container}>
