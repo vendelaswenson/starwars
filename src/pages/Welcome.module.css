@@ -1,0 +1,15 @@
+
+.post__title__heading {
+    display: flex;
+    justify-content: center;
+}
+
+
+h1 {
+    font-family: 'Merriweather', serif;
+    margin-top: 100px;
+}
+
+.post__title__paragraph {
+   padding: 80px;
+}

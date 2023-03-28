@@ -1,0 +1,38 @@
+.header {
+    height: 5rem;
+    background-color: #000000;
+    padding: 0 10%;
+  }
+  
+  .header nav {
+    height: 100%;
+  }
+  
+  .header ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header li {
+    margin: 0 1rem;
+    width: 5rem;
+    border: none;
+
+  }
+  
+  .header a {
+    color: rgb(244, 236, 7);
+    text-decoration: none;
+  }
+  
+  .header a:hover
+  {
+    color:  rgb(244, 236, 7);
+    padding-bottom: 0.25rem;
+    border-bottom: 4px solid  rgb(244, 236, 7);
+  }
