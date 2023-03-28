@@ -19,7 +19,9 @@ const Card = () => {
         <h1>Namn: {post?.name}</h1>
         <h2>Längd: {post?.height} cm</h2>
         <p>Vikt: {post?.mass} kg</p>
-        <p>Hårfärg: {post?.hair_color}</p>
+        <p>
+          Hårfärg: {post?.hair_color !== "n/a" ? post?.hair_color : "No hair"}
+        </p>
         <p>Ögonfärg: {post?.eye_color}</p>
       </div>
     </>
